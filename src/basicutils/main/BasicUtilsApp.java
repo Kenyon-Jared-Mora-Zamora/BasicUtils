@@ -18,8 +18,8 @@ public class BasicUtilsApp {
 
             switch (choice) {
                 case 1 -> CalculatorMenu.show();
-                //case 2 -> EncoderMenu.show();
-                //case 3 -> StudentMenu.show();
+                case 2 -> EncoderMenu.show();
+                case 3 -> StudentMenu.show();
                 case 0 -> {
                     System.out.println("Goodbye!");
                     return;

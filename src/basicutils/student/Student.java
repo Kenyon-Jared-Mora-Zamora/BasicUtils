@@ -1,4 +1,6 @@
 package basicutils.student;
 
-public class Student {
+import java.util.Map;
+
+public record Student(String name, String grade, Map<String, Double> subjects) {
 }
